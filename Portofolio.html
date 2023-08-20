@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your own CSS file here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        section {
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .project {
+            margin: 2rem;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href style= "text-align:left" ; = "#portfolio">Portfolio</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Highlight your skills, projects, and achievements.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <h4 style="text-align:left;">
+                <p> 
+                Project Description:
+                The Secure Simple Calculator Application is a user-friendly software designed to provide a secure and functional calculator interface.
+                This project emphasizes both usability and security by incorporating a user authentication system before granting access to the calculator functionality.
+                The application begins with a login window, requiring users to input a valid username and password combination. 
+                Upon successful authentication, users are granted access to a simple calculator interface to perform basic arithmetic operations. </p> </h4>
+        </div>
+        <div class="project">
+            <video width="1280" height="712" controls> 
+            <source src="project2.mp4" type="video/mp4">
+            </video>
+            <h3>Project 2</h3>
+            <p>Description of your project goes here.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Introduce yourself, your background, and your skills.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+        >> Instagram : <a href="https://www.instagram.com/homingsoon/" target = "_blank" >@homingsoon</a>
+        >> Whatsapp  : <a href="https://api.whatsapp.com/send/?phone=6287885173536&text=boleh tolong cantumkan artikel?" target = "_blank" >(+62)87885173536</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Syarif Lazuardi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
